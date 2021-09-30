@@ -1,0 +1,112 @@
+
+
+.container{
+	top:-75%;
+	left:-77%;
+	background-image: url("./images/colour2.png");
+	height:250vh;
+	width:250vw;
+	position:fixed;
+	background-size:90% auto;  /*1st try: cover; 2nd try: 200vh auto */
+    background-position: center;
+    z-index: -1;
+    animation: spin1 7s ease-out; 
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+	animation-play-state: play;
+	overflow-y:hidden;
+
+}
+
+@keyframes spin1 { /*1*/
+	0% {
+		transform: rotate(0deg)
+	}
+	100% {
+		transform: rotate(3250deg);
+	}
+}
+
+
+@font-face {
+    font-family: GlyphWorld;
+    src: url(fonts/GlyphWorld-Meadow.otf);
+}
+  
+
+/* h1 {
+    font-size:100pt;
+    font-family:GlyphWorld;
+    line-height: 200px;
+    color:black;
+    direction: flex; 
+    flex-direction: row;
+    align-items: center;
+    text-align:center;
+    padding-top:20%;
+    padding-bottom:200 px;
+      
+} */
+      
+/* p {
+    font-size:20pt;
+    font-family: urbane-rounded,sans-serif;
+    line-height: 30px;
+    color:black;
+      
+    direction: flex; 
+    flex-direction: row;
+    align-items: center;
+    text-align:center;
+
+} */
+
+#display {
+    font-size:20pt;
+    font-family: urbane-rounded,sans-serif;
+    line-height: 30px;
+    color:black;
+    padding-top:200px;
+    direction: flex; 
+    flex-direction: row;
+    align-items: center;
+    text-align:center;
+    opacity:0;
+    animation:opacity 20s linear;
+}
+
+@keyframes opacity{
+    0%{
+        opacity:0;
+    }
+    35% {
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    75%{
+        opacity:1;
+    }
+    70% {
+        opacity:1;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
+button {
+    font-size:100pt;
+    font-family:GlyphWorld;
+    line-height: 200px;
+    color:black;
+    align-items: center;
+    text-align:center;
+    padding-top:15%;
+    padding-bottom:100 px;
+    margin-left:300px;
+    background-color:transparent;
+    border:none;
+}
