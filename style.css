@@ -23,7 +23,7 @@
 		transform: rotate(0deg)
 	}
 	100% {
-		transform: rotate(3250deg);
+		transform: rotate(3600deg);
 	}
 }
 
@@ -66,7 +66,7 @@
     font-family: urbane-rounded,sans-serif;
     line-height: 30px;
     color:black;
-    padding-top:200px;
+    padding-top:400px;
     direction: flex; 
     flex-direction: row;
     align-items: center;
@@ -98,7 +98,21 @@
 
 
 button {
-    font-size:100pt;
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:Helvetica;
+    position: relative;
+
+
+  /*  font-size:100pt;
     font-family:GlyphWorld;
     line-height: 200px;
     color:black;
@@ -108,5 +122,41 @@ button {
     padding-bottom:100 px;
     margin-left:300px;
     background-color:transparent;
-    border:none;
+    border:none;*/
+}
+
+
+.clicks {
+     position: relative;
+     top: 15%;
+     left: 47%;
+
+}
+
+
+#questionbox {
+    width: 50%;
+    height:50px;
+    position: relative;
+    top: 0%;
+    left: 25%;
+    font-size: 25px;
+    background:white;
+    opacity:0.8;
+    border: none;
+    resize: none;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 0px;
+    border-radius: 55px;
+
+}
+
+border-radius: 4px;
+  /*box-shadow: 0 9px 11px rgba(0, 0, 0, 0.4);*/
+  /* transform: translate(-50%, -50%); */
+  background:'white';
+  transition: all 0.3s ease;
 }
