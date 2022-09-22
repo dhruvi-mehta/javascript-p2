@@ -1,13 +1,19 @@
 
+body {
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+
+
 
 .container{
 	top:-75%;
-	left:-77%;
+	left:-74.5%;
 	background-image: url("./images/colour2.png");
 	height:250vh;
 	width:250vw;
 	position:fixed;
-	background-size:90% auto;  /*1st try: cover; 2nd try: 200vh auto */
+	background-size:10% auto;  /*1st try: cover; 2nd try: 200vh auto */
     background-position: center;
     z-index: -1;
     animation: spin1 7s ease-out; 
